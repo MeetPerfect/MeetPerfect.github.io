@@ -8,7 +8,7 @@ language: zh-CN                        # 语言
 timezone: Asia/Shanghai                # 时区
 
 # URL
-url: https://meetingunion.github.io/MetaBeta/
+url: https://meetperfect.github.io/Beta/
 root: /skills-github-pages/
 permalink: :year/:month/:day/:title/
 
@@ -52,5 +52,24 @@ theme: reimu
 # Deployment
 deploy:
   type: git
-  repo: https://github.com/MeetingUnion/MetaBeta
-  branch: main
+  repo: https://github.com/MeetPerfect/Beta
+  branch: pages
+
+jsonContent:
+  meta: false
+  pages: false
+  posts:
+    title: true
+    date: true
+    path: true
+    text: false
+    raw: false
+    content: true
+    slug: false
+    updated: false
+    comments: false
+    link: false
+    permalink: false
+    excerpt: true
+    categories: true
+    tags: true
