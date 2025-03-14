@@ -1,4 +1,4 @@
-const VERSION = "1741962895610";const preCache = ["/skills-github-pages/images/taichi.png","/skills-github-pages/images/banner.webp","/skills-github-pages/css/loader.css","/skills-github-pages/css/style.css","/skills-github-pages/js/script.js"];const cacheDomain = [
+const VERSION = "1741964087818";const preCache = ["/skills-github-pages/images/taichi.png","/skills-github-pages/images/banner.webp","/skills-github-pages/css/loader.css","/skills-github-pages/css/style.css","/skills-github-pages/js/script.js"];const cacheDomain = [
   "fonts.googleapis.com",
   "npm.webcache.cn",
   "unpkg.com",
