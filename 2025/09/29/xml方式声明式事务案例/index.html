@@ -38,18 +38,18 @@
     <meta name="description" content="创建数据库表表名 tbl_account  12345create table tbl_account(	id int AUTO_INCREMENT PRIMARY KEY,    name varchar(10) NOT NULL,    money double NOT NULL) ENGINE&#x3D;InnoDB DEFAULT CHARSET&#x3D;utf8;   框架结构 jdbc.properti">
 <meta property="og:type" content="article">
 <meta property="og:title" content="xml方式声明式事务案例">
-<meta property="og:url" content="http://example.com/2025/09/29/xml%20%E6%96%B9%E5%BC%8F%E5%A3%B0%E6%98%8E%E5%BC%8F%E4%BA%8B%E5%8A%A1%E6%A1%88%E4%BE%8B/index.html">
+<meta property="og:url" content="http://example.com/2025/09/29/xml%E6%96%B9%E5%BC%8F%E5%A3%B0%E6%98%8E%E5%BC%8F%E4%BA%8B%E5%8A%A1%E6%A1%88%E4%BE%8B/index.html">
 <meta property="og:site_name" content="MeetPerfect&#39;s Blog">
 <meta property="og:description" content="创建数据库表表名 tbl_account  12345create table tbl_account(	id int AUTO_INCREMENT PRIMARY KEY,    name varchar(10) NOT NULL,    money double NOT NULL) ENGINE&#x3D;InnoDB DEFAULT CHARSET&#x3D;utf8;   框架结构 jdbc.properti">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://example.com/source/_posts/xml%E6%96%B9%E5%BC%8F%E5%A3%B0%E6%98%8E%E5%BC%8F%E4%BA%8B%E5%8A%A1%E6%A1%88%E4%BE%8B.assets/image-20250929100732795.png">
-<meta property="og:image" content="http://example.com/xml%E6%96%B9%E5%BC%8F%E5%A3%B0%E6%98%8E%E5%BC%8F%E4%BA%8B%E5%8A%A1%E6%A1%88%E4%BE%8B.assets/image-20250929101101625.png">
-<meta property="og:image" content="http://example.com/xml%E6%96%B9%E5%BC%8F%E5%A3%B0%E6%98%8E%E5%BC%8F%E4%BA%8B%E5%8A%A1%E6%A1%88%E4%BE%8B.assets/image-20250929100732795.png">
+<meta property="og:image" content="http://example.com/xml.assets/image-20250929100732795.png">
+<meta property="og:image" content="http://example.com/xml.assets/image-20250929101101625.png">
+<meta property="og:image" content="http://example.com/xml.assets/image-20250929100732795.png">
 <meta property="article:published_time" content="2025-09-29T02:41:45.486Z">
-<meta property="article:modified_time" content="2025-09-29T03:15:32.912Z">
+<meta property="article:modified_time" content="2025-10-02T14:05:24.057Z">
 <meta property="article:author" content="MeetPerfect">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://example.com/source/_posts/xml%E6%96%B9%E5%BC%8F%E5%A3%B0%E6%98%8E%E5%BC%8F%E4%BA%8B%E5%8A%A1%E6%A1%88%E4%BE%8B.assets/image-20250929100732795.png">
+<meta name="twitter:image" content="http://example.com/xml.assets/image-20250929100732795.png">
   
   
     <link rel="alternate" href="/atom.xml" title="MeetPerfect's Blog" type="application/atom+xml">
@@ -236,7 +236,7 @@
 <div class="sidebar-state">
   <div class="sidebar-state-article">
     <div>文章</div>
-    <div class="sidebar-state-number">3</div>
+    <div class="sidebar-state-number">4</div>
   </div>
   <div class="sidebar-state-category">
     <div>分类</div>
@@ -315,13 +315,13 @@
   
 </aside>
 
-          <section id="main"><article id="post-xml 方式声明式事务案例" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+          <section id="main"><article id="post-xml方式声明式事务案例" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-inner" data-aos="fade-up">
     <div class="article-meta">
       <div class="article-date">
   <span class="article-date-link" data-aos="zoom-in">
     <time datetime="2025-09-29T02:41:45.486Z" itemprop="datePublished">2025-09-29</time>
-    <time style="display: none;" id="post-update-time">2025-09-29</time>
+    <time style="display: none;" id="post-update-time">2025-10-02</time>
   </span>
 </div>
 
@@ -337,8 +337,8 @@
         <h4 id="创建数据库表"><a href="#创建数据库表" class="headerlink" title="创建数据库表"></a>创建数据库表</h4><p>表名 <code>tbl_account</code> </p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">create table tbl_account(</span><br><span class="line">	id int AUTO_INCREMENT PRIMARY KEY,</span><br><span class="line">    name varchar(10) NOT NULL,</span><br><span class="line">    money double NOT NULL</span><br><span class="line">) ENGINE=InnoDB DEFAULT CHARSET=utf8;</span><br></pre></td></tr></table></figure>
 
-<p><img src="/source/_posts/xml%E6%96%B9%E5%BC%8F%E5%A3%B0%E6%98%8E%E5%BC%8F%E4%BA%8B%E5%8A%A1%E6%A1%88%E4%BE%8B.assets/image-20250929100732795.png" alt="image-20250929101101625"></p>
-<h4 id="框架结构"><a href="#框架结构" class="headerlink" title="框架结构"></a>框架结构</h4><p><img src="/xml%E6%96%B9%E5%BC%8F%E5%A3%B0%E6%98%8E%E5%BC%8F%E4%BA%8B%E5%8A%A1%E6%A1%88%E4%BE%8B.assets/image-20250929101101625.png" alt="image-20250929103715769"></p>
+<p><img src="/xml.assets/image-20250929100732795.png" alt="image-20250929101101625"></p>
+<h4 id="框架结构"><a href="#框架结构" class="headerlink" title="框架结构"></a>框架结构</h4><p><img src="/xml.assets/image-20250929101101625.png" alt="image-20250929103715769"></p>
 <h4 id="jdbc-properties-文件，配置-JDBC-连接"><a href="#jdbc-properties-文件，配置-JDBC-连接" class="headerlink" title="jdbc.properties 文件，配置 JDBC 连接"></a><code>jdbc.properties</code> 文件，配置 <code>JDBC</code> 连接</h4><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">jdbc.driver=com.mysql.cj.jdbc.Driver</span><br><span class="line">jdbc.url=jdbc:mysql:<span class="comment">//localhost:3306/table_account</span></span><br><span class="line">jdbc.username=root</span><br><span class="line">jdbc.password=<span class="number">123456</span></span><br></pre></td></tr></table></figure>
 
 
@@ -364,7 +364,7 @@
 
 
 <p>正常情况下，<code>Tom</code>给 <code>Jerry</code> 转账成功</p>
-<p><img src="/xml%E6%96%B9%E5%BC%8F%E5%A3%B0%E6%98%8E%E5%BC%8F%E4%BA%8B%E5%8A%A1%E6%A1%88%E4%BE%8B.assets/image-20250929100732795.png" alt="image-20250929100732795"></p>
+<p><img src="/xml.assets/image-20250929100732795.png" alt="image-20250929100732795"></p>
 <p>若给业务层加异常，在有事务的情况下，事务会回滚，否则不回滚(存在 <code>Tom</code> 只减钱，<code>Jerry</code> 不加钱)；</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@Service(&quot;accountService&quot;)</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">AccountServiceImpl</span> <span class="keyword">implements</span> <span class="title class_">AccountService</span> &#123;</span><br><span class="line">    </span><br><span class="line">    <span class="meta">@Autowired</span></span><br><span class="line">    <span class="keyword">private</span> AccountMapper accountMapper;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">transfer</span><span class="params">(String outName, String inName, Double money)</span> &#123;</span><br><span class="line">        accountMapper.decrMoney(outName, money);</span><br><span class="line">        <span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">1</span> / <span class="number">0</span>;</span><br><span class="line">        accountMapper.incrMoney(inName, money);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
@@ -386,6 +386,23 @@
   </div>
   
   <nav id="article-nav" data-aos="fade-up">
+    
+      
+      <div class="article-nav-link-wrap article-nav-link-left">
+        
+          
+          
+            <img data-src="https://d-sketon.top/img/backimg/bg1.jpg" data-sizes="auto" alt="" class="lazyload">
+          
+        
+        <a href="/2025/10/02/SSM(Spring+SpringMVC+Mybatis)%E6%95%B4%E5%90%88/"></a>
+        <div class="article-nav-caption">前一篇</div>
+        <h3 class="article-nav-title">
+          
+            (no title)
+          
+        </h3>
+      </div>
     
     
     
@@ -446,10 +463,10 @@
     
       <div>
         <span class="icon-brush"></span>
-        987
+        3.3k
         &nbsp;|&nbsp;
         <span class="icon-coffee"></span>
-        00:07
+        00:20
       </div>
     
     
@@ -495,7 +512,7 @@
 <div class="sidebar-state">
   <div class="sidebar-state-article">
     <div>文章</div>
-    <div class="sidebar-state-number">3</div>
+    <div class="sidebar-state-number">4</div>
   </div>
   <div class="sidebar-state-category">
     <div>分类</div>
@@ -640,12 +657,12 @@
         window.REIMU_POST = {
           author: "MeetPerfect",
           title: "xml方式声明式事务案例",
-          url: "http://example.com/2025/09/29/xml%20%E6%96%B9%E5%BC%8F%E5%A3%B0%E6%98%8E%E5%BC%8F%E4%BA%8B%E5%8A%A1%E6%A1%88%E4%BE%8B/",
+          url: "http://example.com/2025/09/29/xml%E6%96%B9%E5%BC%8F%E5%A3%B0%E6%98%8E%E5%BC%8F%E4%BA%8B%E5%8A%A1%E6%A1%88%E4%BE%8B/",
           excerpt: "",
           description: "",
           stripContent: "创建数据库表表名 tbl_account  12345create table tbl_account( id int AUTO_INCREMENT PRIMARY KEY,    name varchar(10) NOT NULL,    money double NOT NULL) ENGINE=InnoDB DEFAULT CHARSET=utf8;   框架结构 jdbc.properties 文件，配置 JDBC 连接1234jdbc.driver=com.mysql.cj.jdbc.",
           date: "Mon Sep 29 2025 10:41:45 GMT+0800",
-          updated: "Mon Sep 29 2025 11:15:32 GMT+0800",
+          updated: "Thu Oct 02 2025 22:05:24 GMT+0800",
           cover: "/images/banner.webp",
         };
       </script>
